@@ -1,0 +1,10 @@
+USE ROLE USERADMIN;
+
+CREATE USER IF NOT EXISTS api_extractor
+    PASSWORD = '<SET_PASSWORD>'
+    DEFAULT_WAREHOUSE = dev_wh;
+
+
+SHOW USERS LIKE 'api_extractor';
+
+

@@ -1,0 +1,8 @@
+[project]
+name = "snowflake-roland"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "dbt-snowflake>=1.12.1",
+    "dlt[snowflake]>=1.30.0",
+]

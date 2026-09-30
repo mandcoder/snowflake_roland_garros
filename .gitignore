@@ -1,0 +1,18 @@
+# Python-miljö
+.venv/
+__pycache__/
+
+# dlt: hemligheter och lokal state
+.dlt/
+
+# dbt: genererade filer och loggar
+target/
+dbt_packages/
+logs/
+
+# Inloggningsuppgifter
+profiles.yml
+.env
+
+# macOS
+.DS_Store
